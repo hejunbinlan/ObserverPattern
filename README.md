@@ -1,6 +1,6 @@
 # ObserverPattern
 
-> 观察者设计模式中通知订阅功能部分的完整实现
+> [观察者设计模式中通知订阅功能部分的完整实现](http://www.cnblogs.com/YouXianMing/p/4693270.html)
 
 ![demo.png](http://images0.cnblogs.com/blog2015/607542/201507/312150005019987.png)
 
