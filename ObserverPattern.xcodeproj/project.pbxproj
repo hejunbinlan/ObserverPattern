@@ -15,6 +15,7 @@
 		10DE75BC1B68BC8B00544346 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DE75BA1B68BC8B00544346 /* LaunchScreen.xib */; };
 		10DE75C81B68BC8B00544346 /* ObserverPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE75C71B68BC8B00544346 /* ObserverPatternTests.m */; };
 		10DE75D61B68BD9000544346 /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DE75D51B68BD9000544346 /* SubscriptionServiceCenter.m */; };
+		10E5607D1B7DF7AE00D824D7 /* SystemNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5607B1B7DF7AE00D824D7 /* SystemNotificationCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,9 @@
 		10DE75D41B68BD9000544346 /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
 		10DE75D51B68BD9000544346 /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
 		10DE75DD1B68CB8400544346 /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
+		10E5607A1B7DF7AE00D824D7 /* SystemNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemNotificationCenter.h; sourceTree = "<group>"; };
+		10E5607B1B7DF7AE00D824D7 /* SystemNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemNotificationCenter.m; sourceTree = "<group>"; };
+		10E5607C1B7DF7AE00D824D7 /* SystemNotificationCenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemNotificationCenterProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				10DE75D41B68BD9000544346 /* SubscriptionServiceCenter.h */,
 				10DE75D51B68BD9000544346 /* SubscriptionServiceCenter.m */,
 				10DE75DD1B68CB8400544346 /* SubscriptionServiceCenterProtocol.h */,
+				10E560791B7DF79500D824D7 /* SystemNotificationCenter */,
 				10DE75B51B68BC8B00544346 /* Main.storyboard */,
 				10DE75B81B68BC8B00544346 /* Images.xcassets */,
 				10DE75BA1B68BC8B00544346 /* LaunchScreen.xib */,
@@ -124,6 +129,16 @@
 				10DE75C61B68BC8B00544346 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10E560791B7DF79500D824D7 /* SystemNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				10E5607A1B7DF7AE00D824D7 /* SystemNotificationCenter.h */,
+				10E5607B1B7DF7AE00D824D7 /* SystemNotificationCenter.m */,
+				10E5607C1B7DF7AE00D824D7 /* SystemNotificationCenterProtocol.h */,
+			);
+			name = SystemNotificationCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +245,7 @@
 				10DE75B41B68BC8B00544346 /* ViewController.m in Sources */,
 				10DE75B11B68BC8B00544346 /* AppDelegate.m in Sources */,
 				10DE75AE1B68BC8B00544346 /* main.m in Sources */,
+				10E5607D1B7DF7AE00D824D7 /* SystemNotificationCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +442,7 @@
 				10DE75CD1B68BC8B00544346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10DE75CE1B68BC8B00544346 /* Build configuration list for PBXNativeTarget "ObserverPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +451,7 @@
 				10DE75D01B68BC8B00544346 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
